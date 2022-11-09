@@ -1,0 +1,190 @@
+@font-face {
+  font-family: TruenoRG;
+  src: url(./fontes/TruenoRg.otf);
+}
+
+@font-face {
+  font-family: TruenoULTLT;
+  src: url(./fontes/TruenoUltLt.otf);
+}
+
+@font-face {
+  font-family: TruenoLT;
+  src: url(./fontes/TruenoLt.otf);
+}
+
+@font-face {
+  font-family: TruenoBD;
+  src: url(./fontes/TruenoBd.otf);
+}
+
+body {
+  font-family: TruenoLT;
+  margin: 0px;
+  background-image: url(./img/Fundo\ Pattern.jpg);
+  background-repeat: repeat-y;
+}
+
+.flexMenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: #141414 0px 0px 4px;
+  padding: 10px;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+}
+
+.flexNav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flexNav a {
+  text-decoration: none;
+  color: #141414;
+}
+
+.flexNav .links {
+  font-size: 13px;
+}
+
+.flexNav .links:hover {
+  color: #FFBD3A;
+}
+
+.botaoContato h2 {
+  background-color: #FFBD3A;
+  border: none;
+  border-radius: 6px;
+  font-family: TruenoBD;
+  font-size: 20px;
+  padding: 15px 30px;
+  place-items: center;
+}
+
+.botaoContato h2:hover {
+  opacity: 80%;
+  color: #141414;
+}
+
+.gridConteudo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(50px,auto));
+  margin-top: 10em;
+  justify-content: center;
+  
+}
+
+.conteudoAside {
+  max-width: 600px;
+  min-width: 100px;
+  
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+.conteudoAside h2 {
+  color: #535353;
+  margin: 0px;
+  font-size: 40px;
+  font-family: TruenoULTLT;
+}
+
+.conteudoAside h1 {
+  color: #141414;
+  font-size: 70px;
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+.conteudoAside a {
+  text-decoration: none;
+}
+
+.conteudoImagem {
+  width: 400px;
+}
+
+.conteudoContato h2 {
+  margin-top: 50px;
+  color: #141414;
+  background-color: #FFBD3A;
+  border: none;
+  border-radius: 6px;
+  font-family: TruenoBD;
+  font-size: 40px;
+  padding: 15px 30px;
+}
+
+.conteudoContato h2:hover {
+  opacity: 85%;
+}
+
+.conteudoPortfolio h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: none;
+  border-radius: 6px;
+  border: solid #141414 1px;
+  font-family: TruenoBD;
+  font-size: 39px;
+  padding: 15px 30px;
+  opacity: 50%;
+}
+
+.conteudoPortfolio h2:hover {
+  opacity: 90%;
+}
+
+.gridInfos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(50px,auto));
+  margin-top: 10em;
+  justify-content: center;
+  background-color: #FFBD3A;
+  margin-bottom: 10em;
+}
+.infos1{
+  padding: 5% 25%;
+  max-width: 400px;
+  min-width: 100px;
+}
+.infos2{
+  padding: 5% 25%;
+  max-width: 400px;
+  min-width: 100px;
+}
+.infos3{
+  padding: 5% 25%;
+  max-width: 400px;
+  min-width: 100px;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+  .conteudoImagem {
+    width:300px ;
+  } 
+}
+@media only screen and (max-width: 1000px) {
+  .flexNav .links {
+    display: none;
+  }
+  .conteudoImagem {
+    display: none;
+  }
+}
