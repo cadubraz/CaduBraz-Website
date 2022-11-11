@@ -219,7 +219,11 @@ body {
 footer{
   margin-top: 20em;
 }
+<<<<<<< HEAD
 .footer {
+=======
+.footer{
+>>>>>>> e77fc04b6f27c7006851b9913fa415ada5c478bd
   background-color: #141414;
   place-items: center center;
   color: white;
