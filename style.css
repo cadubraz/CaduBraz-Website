@@ -78,22 +78,24 @@ body {
 
 .gridConteudo {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(50px,auto));
+  grid-template-columns: repeat(auto-fit, minmax(50px, auto));
   margin-top: 10em;
   justify-content: center;
-  
+  gap: 10%;
+
 }
 
 .conteudoAside {
   max-width: 600px;
   min-width: 100px;
-  
+
 }
-.botoes{
-    display: flex;
-    justify-content: space-between;
-    max-width: 500px;
-    flex-wrap: wrap;
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  flex-wrap: wrap;
 }
 
 .conteudoAside h2 {
@@ -151,40 +153,125 @@ body {
 
 .gridInfos {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(50px,auto));
+  grid-template-columns: repeat(auto-fit, minmax(50px, auto));
   margin-top: 10em;
   justify-content: center;
   background-color: #FFBD3A;
   margin-bottom: 10em;
+  gap: 10%;
 }
-.infos1{
-  padding: 5% 25%;
-  max-width: 400px;
-  min-width: 100px;
-}
-.infos2{
-  padding: 5% 25%;
-  max-width: 400px;
-  min-width: 100px;
-}
-.infos3{
+
+.infos1 {
   padding: 5% 25%;
   max-width: 400px;
   min-width: 100px;
 }
 
+.infos2 {
+  padding: 5% 25%;
+  max-width: 400px;
+  min-width: 100px;
+}
 
+.infos3 {
+  padding: 5% 25%;
+  max-width: 400px;
+  min-width: 100px;
+}
+
+.skills {
+  align-items: center;
+
+}
+
+.soft {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+  margin-top: 20em;
+  justify-items: center;
+
+}
+
+aside ul {}
+
+.softImage {
+  width: 600px;
+}
+
+.hardImage {
+  width: 600px;
+}
+
+.hard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+  margin-top: 2em;
+  justify-items: center;
+  padding-right: 4.1em;
+  padding-left: 4.1em;
+}
+
+.soft a:hover {
+  opacity: 80%;
+}
+
+.hard a:hover {
+  opacity: 80%;
+}
+.footer{
+  background-color: #141414;
+  place-items: center center;
+}
+.footer h2{
+  color: white;
+}
 
 @media only screen and (max-width: 1400px) {
   .conteudoImagem {
-    width:300px ;
-  } 
+    width: 300px;
+  }
+
+  .softImage {
+    display: none;
+  }
+
+  .hardImage {
+    display: none;
+  }
+
 }
+
 @media only screen and (max-width: 1000px) {
   .flexNav .links {
     display: none;
   }
+
   .conteudoImagem {
     display: none;
   }
-}
+
+  .gridInfos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10em;
+    justify-content: center;
+    background-color: #FFBD3A;
+    margin-bottom: 10em;
+    gap: 10%;
+  }
+
+  .gridConteudo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10em;
+    justify-content: center;
+    gap: 10%;
+
+  }
+
+  .conteudoAside h1 {
+    color: #141414;
+    font-size: 50px;
+    margin: 0px;
+    padding: 10px 0px;
+  }
