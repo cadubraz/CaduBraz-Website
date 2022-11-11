@@ -226,6 +226,9 @@ aside ul {}
   color: white;
 }
 
+
+/* alteração de tamanho tablet*/
+
 @media only screen and (max-width: 1400px) {
   .conteudoImagem {
     width: 300px;
@@ -240,6 +243,8 @@ aside ul {}
   }
 
 }
+
+/* alteração de tamanho celular*/
 
 @media only screen and (max-width: 1000px) {
   .flexNav .links {
