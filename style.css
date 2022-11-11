@@ -216,11 +216,13 @@ body {
 .hard a:hover {
   opacity: 80%;
 }
+footer{
+  margin-top: 20em;
+}
 .footer{
   background-color: #141414;
   place-items: center center;
   color: white;
-  margin-top:20em;
 }
 .form{
   display: flex;
