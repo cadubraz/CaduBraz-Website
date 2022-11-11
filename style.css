@@ -220,6 +220,7 @@ body {
   background-color: #141414;
   place-items: center center;
   color: white;
+  margin-top:20em;
 }
 .form{
   display: flex;
